@@ -11,38 +11,32 @@ So i found this supercool project while looking for inspiration on printables [s
 
 <img width="1532" height="742" alt="image" src="https://github.com/user-attachments/assets/c9432b37-1179-4f00-9f0e-8369d9e2595a" />
 
-
-**Core**
+Core
 For Hermes i will use decided to use pi zero 2w instead of pi zero as it is more capable and finding pi zero can't handle nds emulation as it is too underpowered the zero 2w also supports 64bit architechture 
 ### Display
 For the display any 5 inch display would work we don't need touch etc so i decided to go with the waveshare 5 inch display
 
 ![ZY18318926_4](https://github.com/user-attachments/assets/f8e26415-9360-4eee-98c4-3e730802c092)
 
-
-**Battery**
+Battery
 We need atleast 2000 mah and 3.7v battery so we could get a few hours of backup but along with this we would need a powerboost so it could give a stable 5V and handles charging via usb-c The Adafruit PowerBoost 1000C fits perfectly here since it:
 - Boosts battery voltage to stable 5V  
 - Handles LiPo charging  
 - Provides safe power regulation for portable builds
-- 
-for the battery we can go with any battery which meets the voltage and capacity requriements also for the power on off we would need a slide switch
 
+for the battery we can go with any battery which meets the voltage and capacity requriements also for the power on off we would need a slide switch
 ![81vWDk1H7JL _SL1200_](https://github.com/user-attachments/assets/be3b85ec-7731-435a-a908-68f17c95ea71)
 
-
-**Audio**
+Audio
 Currently our goal is only wired 3.5 mm jack to make things simple we could add 1W small speakers maybe later idk so a 3.5 mm audio jack would work 
 
-
-**Control**
+Control
 for controls we will go with the tactical buttons and maybe a dpad for hard plastic 
 - ABXY
 - Start / Select
 - D-pad (likely a 4-button layout or hard plastic cap design)
 
-
-**Misc**
+Misc
 Other supporting components include:
 - MicroSD card slot and storage setup  
 - Resistors for pull-ups and button stability  

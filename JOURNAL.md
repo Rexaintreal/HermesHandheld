@@ -11,7 +11,6 @@ So i found this supercool project while looking for inspiration on printables [s
 
 <img width="1532" height="742" alt="image" src="https://github.com/user-attachments/assets/c9432b37-1179-4f00-9f0e-8369d9e2595a" />
 
----
 
 ### Core
 For Hermes i will use decided to use pi zero 2w instead of pi zero as it is more capable and finding pi zero can't handle nds emulation as it is too underpowered the zero 2w also supports 64bit architechture 
@@ -20,8 +19,6 @@ For the display any 5 inch display would work we don't need touch etc so i decid
 
 ![ZY18318926_4](https://github.com/user-attachments/assets/f8e26415-9360-4eee-98c4-3e730802c092)
 
-
----
 
 ### Battery
 We need atleast 2000 mah and 3.7v battery so we could get a few hours of backup but along with this we would need a powerboost so it could give a stable 5V and handles charging via usb-c The Adafruit PowerBoost 1000C fits perfectly here since it:
@@ -33,12 +30,10 @@ for the battery we can go with any battery which meets the voltage and capacity 
 
 ![81vWDk1H7JL _SL1200_](https://github.com/user-attachments/assets/be3b85ec-7731-435a-a908-68f17c95ea71)
 
----
 
 ### Audio
 Currently our goal is only wired 3.5 mm jack to make things simple we could add 1W small speakers maybe later idk so a 3.5 mm audio jack would work 
 
----
 
 ### Control 
 for controls we will go with the tactical buttons and maybe a dpad for hard plastic 
@@ -46,7 +41,6 @@ for controls we will go with the tactical buttons and maybe a dpad for hard plas
 - Start / Select
 - D-pad (likely a 4-button layout or hard plastic cap design)
 
----
 
 ### Misc
 Other supporting components include:

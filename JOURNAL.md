@@ -54,4 +54,4 @@ Other supporting components include:
 
 With all this in mind i created the [BOM.md](https://github.com/Rexaintreal/HermesHandheld/blob/main/bom/bom.md) 
 
-**Total time spent: 2 hour**
+**Total time spent: 1 hour**

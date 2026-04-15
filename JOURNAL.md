@@ -55,3 +55,44 @@ Other supporting components include:
 With all this in mind i created the [BOM.md](https://github.com/Rexaintreal/HermesHandheld/blob/main/bom/bom.md) 
 
 **Total time spent: 1 hour**
+
+
+# April 15: Creating the Schematic in KiCad
+---------------
+I have never made a schematic before so this was a really new experience for me I used KiCad since it was free and everyone seems to use it.
+
+![KiCad](https://raw.githubusercontent.com/Rexaintreal/HermesHandheld/main/images/Journal2image1.png)
+
+---------------
+
+I Started with the power section first i added a Conn_01x02 as the battery block then a SW_SPDT for the slide switch then a Conn_01x04 for the Power Boost 10000C and i used Labeling instead of drawing wires to keep everything clean.
+![PowerSection](https://raw.githubusercontent.com/Rexaintreal/HermesHandheld/main/images/Journal2image2.png)
+
+
+---------------
+Then i added the pi zero 2w as a conn_02x20 40 pin block and labled only the pins i actually need 5V GND and the 10 pins for the buttons then i marked everything else as no connect with X marks.
+![PiZero](https://raw.githubusercontent.com/Rexaintreal/HermesHandheld/main/images/Journal2image3.png)
+
+
+---------------
+After this i added all 10 buttons ABXY, Start, Select, D-Pad as SW_Push symbols. originally i was going to add external 10k pull up resistors for each button but turns out the pi zero has internal pull ups which we can enable in the software for simpler schmatic.
+![Buttons](https://raw.githubusercontent.com/Rexaintreal/HermesHandheld/main/images/Journal2image4.png)
+
+
+
+---------------
+
+Now i added a 3.5mm audio jack 3 for the wired audio connected to gpio18 (pwn audio) and a conn_01x05 for the waveshare display with HDMI_P and HDMI_N labels. I got some warning about HDMI_P and HDMI_N only connecting to one pin each but thats expected as hdmi is a physical cable. i added a note for it 
+![AudioDisp](https://raw.githubusercontent.com/Rexaintreal/HermesHandheld/main/images/Journal2image5.png)
+
+---------------
+
+I ran into some ERC errors fixed the no connection on pins and there were some misclicks too the final result had 0 errors with 2 harmless warnings about the hdmi.
+![Errors](https://raw.githubusercontent.com/Rexaintreal/HermesHandheld/main/images/Journal2image6.png)
+
+---------------
+
+The final schematics can be seen in the Github folder at [PDFLink](https://github.com/Rexaintreal/HermesHandheld/blob/main/schematics/HermesHandheld.pdf)
+
+
+**Total time spent: 1.5 hours**

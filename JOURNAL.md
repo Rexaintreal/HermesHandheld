@@ -96,3 +96,79 @@ The final schematics can be seen in the Github folder at [PDFLink](https://githu
 
 
 **Total time spent: 1.5 hours**
+
+# April 16: Designing the bottom shell in onshape
+
+Ive never done any CAD before so this was a very intimidating task for me i decided to use onshape its free and runs on the browser (also i found some tutorials too).
+
+---------------
+![OnShape](images/Journal3image1.png)
+
+---------------
+
+Before starting i looked up the exact dimensions fo every part from my BOM.md from datasheets so i make the models correctly
+- Pi Zero 2W: 65×30×5mm
+- Waveshare 5" Display: 121×76×5mm  
+- PowerBoost 1000C: 32×19×5mm
+- LiPo 3000mAh: 60×50×8mm
+- Tactile buttons: 6×6×5mm each
+
+Based on the biggest parts (bettery + pi) i decided to make the bottom shell to be 160mm wide 80mm tall and 15mm deep with 2mm thick cornered walls
+
+
+---------------
+
+![OnShape](images/Journal3image2.png)
+
+
+---------------
+
+I started with a sktech o nthe top plane and drew a 160x80mm rectangle and then added a 10mm fillets on all 4 corners (i will regret that - foreshadowing) so it looks like an actual handheld and not a BRICK then used the offset tool at -2mm to create the inner wall boundary
+
+---------------
+
+![OnShape](images/Journal3image3.png)
+
+---------------
+
+Extruded the wall profile to 15mm to get the tray shape.
+
+---------------
+![OnShape](images/Journal3image4.png)
+
+---------------
+then i made the floor/base of the case 
+
+---------------
+![OnShape](images/Journal3image5.png)
+
+---------------
+
+Now i had to add 4 m2 screws holes in all the four corners (2.2mm dia for clearance) and 5mm from the edges. these go all the way through so the screws can be inserted from the back to hold the top and bottom shell together. 
+
+---------------
+![OnShape](images/Journal3image6.png)
+
+---------------
+
+
+![OnShape](images/Journal3image7.png)
+
+---------------
+
+
+![OnShape](images/Journal3image8.png)
+
+
+---------------
+
+
+![OnShape](images/Journal3image9.png)
+
+---------------
+
+I struggled with the alginment alot the contrains of being 5mm form the fillet corner works and the dia is also 2.2mm but the placment was inconsistent on all the 4 corners i tried fixing it but i couldnt find any solution and that how i end today's forging session.
+
+---------------
+
+**Total time spent: 1.5 hours**

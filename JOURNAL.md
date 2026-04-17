@@ -200,7 +200,7 @@ After that i added two cutouts on the side wall of the bottom shell
 
 
 ---------------
-![Cutout](images/Journal4image7.png)
+![Cutout](images/Journal4Image7.png)
 
 ---------------
 

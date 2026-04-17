@@ -172,3 +172,77 @@ I struggled with the alginment alot the contrains of being 5mm form the fillet c
 ---------------
 
 **Total time spent: 1.5 hours**
+
+
+# April 17: Power Button, Bottom Shell Cuttouts, ABXY buttons and DPad
+
+So i Fixed the screw hole thanks to Anicetus on slack i used the cocentric constraint to make it all aligned 
+
+---------------
+
+![BottomShell](images/Journal4image1.png)
+
+---------------
+![BottomShell](images/Journal4image2.png)
+
+
+---------------
+
+After that i added two cutouts on the side wall of the bottom shell
+- One for the Micro Usb slot for charging 9x4.5mm from bottom for powerboost charging module
+- and second for the slide switch 8x4mm and 15mm from usb slot so it is placed a bit further
+
+---------------
+![Cutout](images/Journal4image5.png)
+
+---------------
+![Cutout](images/Journal4image6.png)
+
+
+---------------
+![Cutout](images/Journal4image7.png)
+
+---------------
+
+After this the bottom shell was finally complete!! then i started workikng on the smaller parts like the buttons etc
+I started wit the power button first a small circle then a stem then i rounded it a bit.
+
+---------------
+![Power Button](images/Journal4image8.png)
+
+---------------
+
+Similarly i started the ABXY button it is one button design but weve to print 4 of it for each action A B X and Y i didnt engrave text on it as it would be difficult to print properly.
+
+---------------
+
+![ABXY](images/Journal4image9.png)
+
+---------------
+
+Now it was time for the DPad I wanted a GBA styled dpad with individual 6x6x5mm tactical switch beneath it so i started with two rectangles sketch and added a pivot at the bottom so it would work properly for movements in any direction
+
+---------------
+
+![DPAD](images/Journal4image10.png)
+
+---------------
+![DPAD](images/Journal4image11.png)
+
+---------------
+
+But it was not looking like a dpad something was off so i tried making the rectangles X cross to be of similar size like a square i changed the dimensions from 30 to 22 and from 12 to 8mm
+
+---------------
+![DPAD](images/Journal4image12.png)
+
+---------------
+
+Finally before ending todays cad session i tried making the top shell just the hollow shell with same dimensions as the bottom shell with fillet used on the corners for consistency. it is unfinished atm.
+---------------
+![TopShell](images/Journal4image13.png)
+
+---------------
+
+
+**Total time spent: 2 hours**

@@ -325,7 +325,7 @@ So i redrew it properly it took a while but it was looking like a real handheld 
 ---------------
 
 
-similarly i drew the dpad and the select and start button and added screw holes in the end to finish the CAD!!!
+similarly i drew the dpad and the select and start button and added screw holes and added the 3.5 mm audio jack hole in the end to finish the CAD!!!
 
 i FINALLY CREATED THE CASE FROM SCRATCH YAYAYAYAYAYAY 
 
@@ -342,6 +342,10 @@ i FINALLY CREATED THE CASE FROM SCRATCH YAYAYAYAYAYAY
 ---------------
 
 ![TopShell](images/Journal5image12.png)
+
+---------------
+
+![TopShell](images/Journal5image13.png)
 
 ---------------
 

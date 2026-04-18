@@ -246,3 +246,104 @@ Finally before ending todays cad session i tried making the top shell just the h
 
 
 **Total time spent: 2 hours**
+
+
+
+# April 18: Designing the DS Style Top Shell and Redesigning the Bottom Shell
+
+So i continued with the top shell and i was adding the hole for the dislay mount and i realized the dimensions of the display are way larger and this leaves no space for the controls like i imagined.
+
+---------------
+![Error](images/Journal5image1.png)
+
+---------------
+
+after reconsidering all the dimensions i started redesigning the shells as they were not fit for the dispaly and controls 
+
+---------------
+![BottomShell](images/Journal5image2.png)
+
+---------------
+
+Based on the component sizes i recalculated everything:
+- 35mm left (dpad zone) + 121mm (display) + 35mm right (abxy zone) = 191mm inner
+- With 2mm walls each side = 195mm total width
+- 10mm top gap + 76mm display + 10mm bottom (start/select) = 96mm inner  
+- With 2mm walls = 100mm total height
+- Depth stays 15mm
+- and the bottom shell with new 195×100×15mm dimensions.
+
+
+---------------
+![BottomShelRedesigned](images/Journal5image3.png)
+
+---------------
+![BottomShelRedesigned](images/Journal5image4.png)
+
+---------------
+
+After completing the bottom shell i added the cuttouts for the usb and slide switch 
+
+
+---------------
+![BottomShelRedesigned](images/Journal5image5.png)
+
+---------------
+
+
+then i continued with the top shell by creating the similar shell like strucutre and then excruding out space for the screen.
+
+---------------
+![TopShell](images/Journal5image6.png)
+
+---------------
+
+
+![TopShell](images/Journal5image7.png)
+
+---------------
+
+Now it was time for the buttons ABXY i wanted them to be on the right hand side in center but the distance were inconsistent
+
+
+---------------
+
+
+![TopShell](images/Journal5image8.png)
+
+---------------
+
+
+So i redrew it properly it took a while but it was looking like a real handheld now 
+
+
+---------------
+
+
+![TopShell](images/Journal5image9.png)
+
+---------------
+
+
+similarly i drew the dpad and the select and start button and added screw holes in the end to finish the CAD!!!
+
+i FINALLY CREATED THE CASE FROM SCRATCH YAYAYAYAYAYAY 
+
+
+---------------
+
+
+![TopShell](images/Journal5image10.png)
+
+---------------
+
+![TopShell](images/Journal5image11.png)
+
+---------------
+
+![TopShell](images/Journal5image12.png)
+
+---------------
+
+
+**Total time spent: 1.5 hours**

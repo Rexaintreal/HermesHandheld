@@ -351,3 +351,90 @@ i FINALLY CREATED THE CASE FROM SCRATCH YAYAYAYAYAYAY
 
 
 **Total time spent: 1.5 hours**
+
+
+
+# April 24: Creating the Assembly and Coloring in OnShape
+
+So today the reviewer asked me to create an assembled view of all the parts so they can verify everything fits together and also asked for the onshape links so i had to figure out how to use the Assembly feature in onshape which i had never used before.
+
+---------------
+
+I started by creating a new Assembly tab in my onshape document by clicking the + button at the bottom next to the Part Studio 1 tab At first the assembly was completely empty (Parts 0) so i had to figure out how to insert parts into it. I pressed I to open the insert menu and found all my parts listed there I started inserting the parts one by one the top shell and bottom shell went in first but they were all floating around in random positions it looked like a mess lol
+
+---------------
+![Assembly](images/Journal6image1.png)
+
+---------------
+
+![Parts](images/Journal6image2.png)
+
+---------------
+
+
+---------------
+![Assembly](images/Journal6image3.png)
+
+---------------
+
+then i started dragging everything into place putting the dpad on the left side of the top shell where it belongs
+
+---------------
+![Assembly](images/Journal6image4.png)
+
+---------------
+
+after placing all the parts it was starting to look like an actual handheld!! the shells fit together nicely and there was room for all the buttons
+
+---------------
+![Assembly](images/Journal6image5.png)
+
+---------------
+
+i checked the side profile too to make sure the power button and usb cutout were visible and aligned properly
+
+---------------
+![Assembly](images/Journal6image6.png)
+
+---------------
+
+the start and select buttons on the bottom also looked correctly placed
+
+---------------
+![Assembly](images/Journal6image7.png)
+
+---------------
+
+this is the clean assembled front view before adding any colors it was already looking really good and like a real handheld!!
+
+---------------
+![Assembly](images/Journal6image8.png)
+
+---------------
+
+then i decided to add some colors to make it look more presentable for the reviewer. i right clicked on each part in the viewport and used Edit Appearance to change colors. started with making the shells dark gray
+
+---------------
+![Assembly](images/Journal6image9.png)
+
+---------------
+
+then i colored the buttons i made the abxy buttons red and the dpad orange to make them stand out against the dark shell
+
+---------------
+![Assembly](images/Journal6image10.png)
+
+---------------
+
+after some more tweaking with the colors i got to a final look that i was happy with gray shell with red abxy buttons orange dpad and the start select buttons also colored
+this is the final assembled render!! it looks like a proper retro handheld and all the parts fit together as planned. you can clearly see the screen cutout dpad abxy buttons start select and the power button on the side
+
+---------------
+
+The final assembled onshape document can be viewed here: [OnShape Assembly Link](https://cad.onshape.com/documents/3f5750065cdf21957d49744e/w/c6da2cc7c075b2bb5bd5add7/e/7ea9707faccdc6ff577339ba?renderMode=0&uiState=69eb2566edc4832fe42eea81)
+
+
+---------------
+after finishing the assembly i also wrote a proper README.md for the github repo since the reviewer mentioned shipping and having good documentation. it covers what hermes is, the features, the repo structure, links to the onshape assembly, schematic pdf, and bom. so anyone landing on the repo understands what the project is about immediately.
+
+**Total time spent: 1 hour**

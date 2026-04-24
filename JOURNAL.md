@@ -437,4 +437,4 @@ The final assembled onshape document can be viewed here: [OnShape Assembly Link]
 ---------------
 after finishing the assembly i also wrote a proper README.md for the github repo since the reviewer mentioned shipping and having good documentation. it covers what hermes is, the features, the repo structure, links to the onshape assembly, schematic pdf, and bom. so anyone landing on the repo understands what the project is about immediately.
 
-**Total time spent: 1 hour**
+**Total time spent: 1.5 hour**

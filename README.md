@@ -57,8 +57,10 @@ Printable STLs are in the `/cad` folder:
 
 Designed in KiCad. Uses Pi Zero 2W internal pull-ups for buttons (no external resistors needed).
 
-[View Schematic PDF](schematics/HermesHandheld.pdf)
+<img width="2000" height="1414" alt="image" src="https://github.com/user-attachments/assets/9632c41b-8d4e-4094-8836-a64372534c9e" />
 
+
+[View Full Schematic PDF](schematics/HermesHandheld.pdf)
 ---
 
 ## Bill of Materials

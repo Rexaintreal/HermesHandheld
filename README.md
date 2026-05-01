@@ -33,6 +33,7 @@ So while looking for inpirations for a Forge project i stubmled across the [simp
 
 ```
 HermesHandheld/
+├── ASSEMBLY.md         # Assembly guide 
 ├── JOURNAL.md          # Build log with progress photos
 ├── bom/bom.md          # Full bill of materials
 ├── cad/                # STL files for 3D printing
@@ -51,7 +52,7 @@ All parts designed in OnShape from scratch.
 Printable STLs are in the `/cad` folder:
 - `top_shell_ds.stl`
 - `bottom_shell_ds.stl`
-- `abxy_button.stl` (print x4)
+- `abxy_button.stl` (print x6)
 - `dpad.stl`
 - `power_button.stl`
 

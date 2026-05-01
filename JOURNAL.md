@@ -438,3 +438,30 @@ The final assembled onshape document can be viewed here: [OnShape Assembly Link]
 after finishing the assembly i also wrote a proper README.md for the github repo since the reviewer mentioned shipping and having good documentation. it covers what hermes is, the features, the repo structure, links to the onshape assembly, schematic pdf, and bom. so anyone landing on the repo understands what the project is about immediately.
 
 **Total time spent: 1 hour**
+
+
+# May 1: Writing Assembly Instructions
+
+So the reviewer sent it back asking for assembly instructions and a motivation section so i spent some time today writing all of that out.
+
+---------------
+
+For the assembly i documented every step from soldering the headers on the pi zero 2w all the way to closing the shell with m2 screws and nuts. it was actually useful to write it all out because i realized some things i hadnt fully thought through yet like wire management inside the shell.
+
+i also added a "Why I Built This" section to the README explaining how i found the simplyRetroZ5 and decided to build something similar but completely from scratch since i had never done CAD or schematics before.
+
+here is the updated assembly instructions preview:
+
+![Assembly Instructions](images/Journal7img1.png)
+
+You can read the full assembly instructions here: [ASSEMBLY.md](ASSEMBLY.md)
+
+---------------
+
+and here is the README with the new motivation section added:
+
+![README Preview](images/Journal7img2.png)
+
+---------------
+
+**Total time spent: 30 minutes**

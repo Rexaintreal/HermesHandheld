@@ -12,6 +12,10 @@ Hermes is a fully custom handheld gaming console 3D printed case, hand-wired con
 
 ---
 
+## Why I built this
+
+So while looking for inpirations for a Forge project i stubmled across the [simplyRetroZ5](https://www.printables.com/model/163507-simplyretro-z5-retropie-emulation-handheld) repository and i was really amazed by this project and i decided to build smthing like this myself but it would be challenging as ive never made anything from scratch before (in hardware). I had never made a schematic, never done CAD and had no experience with hardware design. But i wanted a project which would help me actually learn all of that not just follow some tutorial online. So instead of cloning it i found parts myself, created the case wiring schematic all myself from scratch. Currently Hermes is under development and im actively working on it whenever im free! 
+
 ## Features
 
 - Raspberry Pi Zero 2W (64-bit, capable of NDS emulation)
@@ -87,4 +91,4 @@ Full build log with progress photos: [JOURNAL.md](JOURNAL.md)
 
 ## Status
 
-> In Progress — CAD complete, schematic done, assembly pending
+> CAD complete, schematic done, need to buy parts

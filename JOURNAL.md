@@ -454,7 +454,7 @@ here is the updated assembly instructions preview:
 
 ![Assembly Instructions](images/Journal7img1.png)
 
-You can read the full assembly instructions here: [ASSEMBLY.md](ASSEMBLY.md)
+You can read the full assembly instructions here: [ASSEMBLY.md](https://github.com/Rexaintreal/HermesHandheld/blob/main/ASSEMBLY.md)
 
 ---------------
 

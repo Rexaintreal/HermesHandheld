@@ -488,17 +488,17 @@ one thing i caught while building the sharvi cart was that i had a **female** 2x
 
 placed the silverline order first:
 
-![Silverline Order](images/Journal8image4.png)
+![Silverline Order](images/Journal8image3.png)
 
 then placed the sharvi order:
 
-![Sharvi Order](images/Journal8image3.png)
+![Sharvi Order](images/Journal8image4.png)
 
 i still have 5.91 dollars left i will return that and ig will get the coins back 
 
 ![Transactions](images/Journal8image2.png)
 
-total spent was ₹1,770 (silverline) + ₹1,453 (sharvi) = **₹3,223 (~$34)** leaving around $5.90 buffer.
+total spent was ₹1,770 (silverline) + ₹1,453 (sharvi) = **₹3,223 (~$34)** leaving around $5.90 buffer. 
 
 ---------------
 
@@ -512,5 +512,7 @@ once the parts arrive the plan is:
 - map buttons in RetroPie
 
 that should be a solid few sessions worth of journaling before i even need to think about buying the display, powerboost or battery.
+
+
 
 **Total time spent: 30 minutes**

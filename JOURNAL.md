@@ -465,3 +465,52 @@ and here is the README with the new motivation section added:
 ---------------
 
 **Total time spent: 30 minutes**
+
+
+# May 7: Got the Grant and Ordered Parts
+
+So today i got the Forge grant of $40 for HermesHandheld!! i was so happy when i saw this email!!!!
+
+![Grant Email](images/Journal8image1.png)
+
+so now i actually had money to buy parts and start building. the plan was always to get the core stuff first since $40 is not enough to buy everything from the BOM at once. i need to be smart about what i buy first so i can actually start testing and logging real hours.
+
+the most important thing to get first is obviously the **Raspberry Pi Zero 2W** since without it literally nothing else can be tested. then i need a **MicroSD card** to flash the OS onto. and since i already have a monitor at home i can skip buying the waveshare display for now and save that $30 for later which is huge.
+
+i also had to figure out the HDMI situation. the Pi Zero 2W uses **Mini HDMI** (not micro hdmi) so i needed a mini hdmi to hdmi cable to connect to my monitor. i just googled it to confirm and yeah its definitely mini hdmi on the zero 2w.
+
+for the smaller stuff like breadboard, buttons, jumper wires and headers i needed those too so i can start wiring up buttons and testing GPIO once the pi arrives.
+
+
+now for finding the best deals i compared **robocraze** vs **sharvi electronics** for the components and sharvi was significantly cheaper. robocraze was coming out to ₹1,624 for the same stuff while sharvi was ₹1,273 so i went with sharvi. for the Pi Zero 2W itself i found it in stock at **Silverline India** for ₹1,500 + GST.
+
+one thing i caught while building the sharvi cart was that i had a **female** 2x20 header in there at first which would NOT work for soldering onto the Pi Zero 2W. you need the male header for that. swapped it out for the correct **2x20 40Pin Male Double Row Straight Berg Strip** header before ordering. also grabbed x3 of them and x5 slide switches as it was the minimum order limit.
+
+placed the silverline order first:
+
+![Silverline Order](images/Journal8image4.png)
+
+then placed the sharvi order:
+
+![Sharvi Order](images/Journal8image3.png)
+
+i still have 5.91 dollars left i will return that and ig will get the coins back 
+
+![Transactions](images/Journal8image2.png)
+
+total spent was ₹1,770 (silverline) + ₹1,453 (sharvi) = **₹3,223 (~$34)** leaving around $5.90 buffer.
+
+---------------
+
+after ordering i also updated the **BOM.md** since the links and prices i had before were outdated. swapped robocraze links to sharvi for the stuff i actually bought there, updated unit prices to match what i actually paid, added the correct **2x20 male berg strip header** entry and removed the old generic header pins row. total BOM cost came down from $145 to **$127.81** since sharvi is cheaper than the original sources i had listed.
+
+once the parts arrive the plan is:
+- solder the header pins onto the Pi Zero 2W
+- flash RetroPie or Batocera to the MicroSD
+- boot the Pi on my monitor and verify everything works
+- wire all 10 buttons on the breadboard and test GPIO inputs with a python script
+- map buttons in RetroPie
+
+that should be a solid few sessions worth of journaling before i even need to think about buying the display, powerboost or battery.
+
+**Total time spent: 30 minutes**

@@ -516,3 +516,50 @@ that should be a solid few sessions worth of journaling before i even need to th
 
 
 **Total time spent: 30 minutes**
+
+
+# May 24: Parts Arrived, Life Happened
+
+So both orders finally arrived while i was away but a lot happened in between.
+
+On May 9th my grandfather passed away and we had to travel 400km for the last rites. Hindu funeral rituals are 14 days long so i was completely off my desk with no laptop or anything for almost two weeks. My neighbour received both packages while i was gone which was a relief at least.
+
+The Sharvi Electronics order got delivered on **13/05/2026 at 1:53 PM** and the Silverline order came in earlier on **11th May at 2:56 PM**.
+
+i got back to my desk recently and finally unboxed everything to verify nothing was missing or damaged.
+
+---------------
+
+both packages were sitting there waiting for me lol
+
+---------------
+![Packages](images/Journal9image4.png)
+
+---------------
+
+the silverline box had the Pi Zero 2W in its official antistatic bag packed inside a cardboard box with crumpled newspaper as padding. it felt good to finally hold it
+
+---------------
+![Pi Zero 2W](images/Journal9image1.png)
+
+---------------
+
+the sharvi order had everything else the SanDisk 32GB microSD, the mini HDMI to HDMI cable, the breadboard, all the jumper wire packs and the header strips all in blue antistatic bags
+
+---------------
+![Sharvi Components](images/Journal9image2.png)
+
+---------------
+
+i also checked the packing slip and everything matched the order HDMI cable, slide switches, tactile buttons, M-M M-F F-F jumper wires, breadboard, microSD and the 2x20 male berg strip headers. 26 items total across 9 line items all accounted for
+
+---------------
+![Packing Slip](images/Journal9image3.png)
+
+---------------
+
+nothing is damaged everything is here so the plan now is to finally get to work. next session i will solder the header pins onto the Pi Zero 2W, flash RetroPie onto the microSD and do the first boot on my monitor to verify everything works before touching any GPIO stuff
+
+---------------
+
+**Total time spent: 20 minutes**

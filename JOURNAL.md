@@ -563,3 +563,140 @@ nothing is damaged everything is here so the plan now is to finally get to work.
 ---------------
 
 **Total time spent: 20 minutes**
+
+
+# May 25: First Boot Attempt Everything That Could Go Wrong, Did
+
+So today was the day i was finally going to boot the Pi Zero 2W for the first time. It did not go as planned at all.
+
+---------------
+
+First i laid out everything on the desk the Pi Zero 2W, the SanDisk 32GB microSD, the mini HDMI cable, the header strips, and the mini HDMI to HDMI cable.
+
+---------------
+
+![Parts laid out](images/Journal10Image1.png)
+
+---------------
+
+The first problem hit immediately. My laptop has no SD card slot so i couldn't flash directly. I tried a USB to SD card adapter but the laptop wasn't detecting it at all. Ok no worries... I have a Raspberry Pi 5 sitting around that i use as a home server. so nnow Plan B: use the Pi 5 to flash the microSD
+
+---------------
+
+But to use the Pi 5 i needed it running first. Since i wanted to flash the Zeros SD card from the Pi 5, i decided to boot the Pi 5 from a USB drive instead so the SD card slot would be free. I opened Raspberry Pi Imager and selected Raspberry Pi OS 64-bit (released April 21 2026, Debian Trixie) which officially supports the Zero 2W.
+
+---------------
+
+![OS Selection](images/Journal10Image2.png)
+
+---------------
+
+I flashed the OS onto the HP USB drive using Raspberry Pi Imager v2.0.3. Writing went fine hit 35% then completed successfully.
+
+---------------
+
+![Writing 35%](images/Journal10Image4.png)
+
+---------------
+
+But when i tried booting the Pi 5 from the USB drive it threw a wall of errors. The bootloader was complaining about USB boot requiring high current (5V 5A) and the USB drive was just too slow it kept crashing before completing the boot. I tried again but same result :(
+
+---------------
+
+![Boot errors](images/Journal10Image8.png)
+
+---------------
+
+I also tried balenaEtcher as an alternative flashing tool but it threw its own error "The writer process ended unexpectedly" so that was a dead end too
+
+---------------
+
+![Etcher error](images/Journal10Image5.png)
+
+---------------
+
+Okay new plan. I removed the USB drive and booted the Pi 5 normally from its own SD card. Now i could use Raspberry Pi Imager running on the Pi 5 itself to flash the 32GB SanDisk microSD directly. I selected Raspberry Pi Zero 2W as the target device this time.
+
+---------------
+
+![Device selection Zero 2W](images/Journal10Image13.png)
+
+---------------
+
+The Pi 5 did not detect my sd card but detected the usb drive as a VendorCo ProductCode device. Writing started, got to 48% at 26 MB/s, then completed. Write complete screen confirmed: Device Raspberry Pi 5, OS Raspberry Pi OS 32-bit, Storage VendorCo ProductCode USB Device. Hostname, localisation, and user account all configured.
+
+---------------
+
+![Writing 48%](images/Journal10Image6.png)
+
+---------------
+
+![Write complete](images/Journal10Image7.png)
+
+---------------
+
+i also tried balenaEtcher on the Pi 5 with the arm64 image, 6.5GB. it was flashing at 25.30 MB/s and got to 20% with an ETA of 3m25s before i stopped it since Raspberry Pi Imager had already done the job.
+
+---------------
+
+![Etcher flashing 20%](images/Journal10Image23.png)
+
+---------------
+
+i also tried the Pi 5's built in network installer which was downloading and the writing screen on the monitor showed 
+
+---------------
+
+![Downloading installer](images/Journal10Image11.png)
+
+---------------
+
+![Writing 3% on monitor](images/Journal10Image15.png)
+
+---------------
+
+Now i pulled out the microSD, slotted it into the Pi Zero 2W, plugged in the mini HDMI cable to the monitor and connected the microUSB cable from my laptop to power it. This is what it looked like the SD card in, mini HDMI connected, and the blue microUSB going to my laptop for power.
+
+---------------
+
+![Pi Zero 2W with cables connected](images/Journal10Image22.png)
+
+---------------
+
+Nothing. Black screen. No green LED no boot activity no life at all. I tried with a random charger i had lying around but the amperage was probably wrong and it still didn't boot.
+
+Then i tried putting the microSD into another laptop that had a full size SD card slot using an adapter. Not detected. I tried it in my phone. Also not detected.
+
+---------------
+
+![No storage devices found](images/Journal10Image18.png)
+
+---------------
+
+At this point i'm pretty sure the SanDisk 32GB microSD is either corrupted or was DOA. It was from the Sharvi order which arrived while i was away for two weeks. Too late for returns. The Pi Zero 2W itself i still haven't been able to confirm is working because i can't power it properly without a proper 5V microUSB charger, and i can't boot it without a working SD card.
+
+Two and a half hours and i hit a wall on both fronts at the same time.
+
+---------------
+
+The Pi 5 itself is fine i confirmed it boots to Raspberry Pi OS desktop (64-bit, March 2026) properly so at least that part works
+
+---------------
+
+![Pi 5 booting fine](images/Journal10Image17.png)
+
+---------------
+
+![Pi Desktop welcome screen](images/Journal10Image20.png)
+
+---------------
+
+What i need to unblock this:
+- A new microSD card (the 32GB SanDisk appears to be dead)
+- A proper 5V microUSB charger so i can actually power the Pi Zero 2W
+
+Until i have both of those i can't confirm whether the Pi Zero 2W itself is working. Everything is on hold.
+
+---------------
+
+**Total time spent: 2.5 hours**

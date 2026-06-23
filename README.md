@@ -4,6 +4,10 @@ A portable handheld retro gaming console built from scratch using a Raspberry Pi
 
 ![Assembly](images/Journal6image10.png)
 
+> [!NOTE]
+> **Currently on a short break!** I'm busy at the moment but will be actively continuing development soon. Stay tuned for updates!
+
+
 ---
 
 ## What is it?
